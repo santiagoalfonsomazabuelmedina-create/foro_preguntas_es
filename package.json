@@ -1,7 +1,7 @@
 {
-  "name": "mi-producto",
+  "name": "foro_preguntas_es",
   "version": "0.1.0",
-  "description": "Proyecto de Lenguaje de Programación · cambia este texto por la descripción de tu producto",
+  "description": "foro de preguntas estudiantil",
   "private": true,
   "type": "module",
   "engines": {
