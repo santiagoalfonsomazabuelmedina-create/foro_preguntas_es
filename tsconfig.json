@@ -1,0 +1,21 @@
+{
+  // TypeScript solo REVISA los tipos (npm run typecheck); no genera archivos.
+  // El backend lo ejecuta Node.js directamente y el frontend lo empaqueta Vite.
+  "compilerOptions": {
+    "target": "es2023",
+    "lib": ["es2023", "dom", "dom.iterable"],
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "types": ["node"],
+    "strict": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
+  },
+  "include": ["src", "db", "tests", "*.ts"]
+}

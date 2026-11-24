@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "vitest.explorer",
+    "ms-playwright.playwright",
+    "ms-azuretools.vscode-containers",
+    "github.vscode-pull-request-github",
+    "github.vscode-github-actions",
+    "bierner.markdown-mermaid",
+    "ritwickdey.LiveServer"
+  ]
+}

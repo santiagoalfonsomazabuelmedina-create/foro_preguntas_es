@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mi producto · proyecto de Lenguaje de Programación" />
+    <title>Mi producto</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Mi producto</h1>
+      <p>Plantilla de ejemplo. Reemplaza esta pantalla por la de tu producto.</p>
+    </header>
+
+    <main>
+      <section aria-labelledby="new-task-title">
+        <h2 id="new-task-title">Nueva tarea</h2>
+        <form id="task-form" novalidate>
+          <label for="task-title">Título</label>
+          <div class="row">
+            <input id="task-title" name="title" type="text" maxlength="120" required autocomplete="off" />
+            <button type="submit">Agregar</button>
+          </div>
+          <p id="form-error" class="error" role="alert"></p>
+        </form>
+      </section>
+
+      <section aria-labelledby="list-title">
+        <h2 id="list-title">Tareas <span id="task-count" class="count"></span></h2>
+        <ul id="task-list" class="task-list"></ul>
+        <p id="empty-state" class="muted" hidden>Todavía no hay tareas.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Lenguaje de Programación · 2026</p>
+    </footer>
+
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>

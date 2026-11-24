@@ -1,0 +1,21 @@
+# Dependencias y archivos generados
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+blob-report/
+
+# Variables de entorno: NUNCA se suben (contienen contraseñas)
+.env
+.env.*
+!.env.example
+
+# Log de operaciones (H5.2)
+*.log
+data/
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.idea/

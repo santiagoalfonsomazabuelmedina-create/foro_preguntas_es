@@ -1,0 +1,53 @@
+name: Historia de usuario
+description: Una funcionalidad nueva de tu producto, escrita desde el punto de vista del usuario.
+title: "H?.? · "
+labels: ["historia"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Las historias del backlog común se cargan solas con `npm run backlog`.
+        Usa este formulario para las historias propias de tu producto (requisitos RF-xx del PRD).
+  - type: dropdown
+    id: epica
+    attributes:
+      label: Épica
+      options:
+        - E0 · Nivelación y setup
+        - E1 · Ingeniería inversa
+        - E2 · Arquitectura y entorno
+        - E3 · Estructuras de datos propias
+        - E4 · Búsqueda y ordenamiento
+        - E5 · Archivos y persistencia
+        - E6 · Eventos, señales y dispositivos
+        - E7 · Procesamiento gráfico
+        - E8 · Calidad y despliegue
+        - E9 · Reto técnico distintivo
+        - E10 · Base de datos PostgreSQL
+        - E11 · Seguridad y autenticación
+        - Requisito propio del PRD
+    validations:
+      required: true
+  - type: textarea
+    id: historia
+    attributes:
+      label: Historia
+      description: "Formato: Como <tipo de usuario>, quiero <acción> para <beneficio>."
+      placeholder: Como bodeguero, quiero escanear el código de barras para registrar la venta en segundos.
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Criterios de aceptación
+      description: Condiciones verificables. Si no se pueden comprobar, no sirven.
+      placeholder: |
+        - [ ] Al escanear un código existente, el producto aparece en la venta
+        - [ ] Un código desconocido muestra "Producto no encontrado"
+    validations:
+      required: true
+  - type: textarea
+    id: notas
+    attributes:
+      label: Notas técnicas
+      description: Tablas, endpoints, estructuras o algoritmos que vas a usar.
