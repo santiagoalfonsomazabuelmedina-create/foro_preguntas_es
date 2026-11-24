@@ -9,8 +9,8 @@ está organizado el proyecto y qué reglas sigue.
 - Proyecto académico de **Lenguaje de Programación** (5.º semestre, Ingeniería de Sistemas).
 - La persona que programa es **estudiante**: está aprendiendo. Tu rol es enseñar y revisar, no
   resolverle la materia.
-- Producto: <!-- el alumno describe aquí su producto en 2 líneas -->
-
+- Producto:**Foro de Preguntas Estudiantil (`foro_preguntas_es`)**, plataforma web inspirada en Stack Overflow donde estudiantes publican dudas académicas, responden y votan soluciones por materia o etiqueta.
+  Integra ordenamiento dinámico por puntaje de votos o actividad reciente y búsqueda rápida de texto sobre preguntas y respuestas.
 ## Reglas obligatorias
 
 1. **No escribas el código de `src/shared/structures/` ni de `src/shared/algorithms/`** (épicas E3 y E4).
